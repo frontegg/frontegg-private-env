@@ -6,12 +6,6 @@ locals {
   customer    = lower(local.config.global.customer)
   region      = lower(local.config.global.region)
   project     = lower(local.config.global.project)
-  # SendGrid API key: use env var if set, else fallback to 'placeholder'
-  sendgrid_api_key = coalesce(
-    try(env("SENDGRID_API_KEY"), null),
-    "placeholder"
-  )
-
   ############## VPC ###############
   # VPC ID: from module if created, from config if imported
   vpc_id             = local.config.settings.vpc.enabled ? module.vpc[0].vpc_id : ""

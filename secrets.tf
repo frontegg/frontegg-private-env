@@ -33,7 +33,7 @@ resource "aws_secretsmanager_secret_version" "env_secret_version" {
       oauthServiceSigningKey         = random_uuid.oauthServiceSigningKey.result
       cryptoKeyV2                    = random_string.cryptoKeyV2.result
       oauthServiceCryptoKey          = random_string.oauthServiceCryptoKey.result
-      sendgrid                       = local.sendgrid_api_key
+      sendgrid                       = var.sendgrid_api_key
     }
   )
 }
