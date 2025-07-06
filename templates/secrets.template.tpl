@@ -116,7 +116,7 @@ externalServices:
   sentry:
     dsn: "placeholder"
   sendgrid:
-    ApiKey: "placeholder"
+    ApiKey: "${sendgrid}"
   twilio:
     token: "placeholder"
     accountId: "ACplaceholder"
