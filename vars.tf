@@ -4,3 +4,9 @@ variable "sendgrid_api_key" {
   sensitive   = true
   default     = "placeholder"
 }
+
+variable "SETUP_JOB_PASSWORD" {
+  description = "This is the first vendor password"
+  type        = string
+  sensitive   = true
+}
