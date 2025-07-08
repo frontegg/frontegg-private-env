@@ -118,10 +118,12 @@ externalServices:
   sendgrid:
     ApiKey: "${sendgrid}"
   twilio:
-    token: "placeholder"
-    accountId: "ACplaceholder"
+    token: "${TWILIO_TOKEN}"
+    accountId: "${TWILIO_ACCOUNTID}"
   split:
     webhooks:
       secret: "placeholder"
     clientId: "placeholder"
     sdkKey: "localhost"
+
+    

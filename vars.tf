@@ -10,3 +10,17 @@ variable "SETUP_JOB_PASSWORD" {
   type        = string
   sensitive   = true
 }
+
+variable "TWILIO_TOKEN" {
+  description = "Twilio token"
+  type        = string
+  sensitive   = true
+  default     = "placeholder"
+}
+
+variable "TWILIO_ACCOUNTID" {   
+  description = "Twilio account ID"
+  type        = string
+  sensitive   = true
+  default     = "placeholder"
+}
