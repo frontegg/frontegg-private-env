@@ -35,7 +35,7 @@ resource "aws_secretsmanager_secret_version" "env_secret_version" {
       oauthServiceCryptoKey          = random_string.oauthServiceCryptoKey.result
       sendgrid                       = var.sendgrid_api_key
       TWILIO_TOKEN                   = var.TWILIO_TOKEN
-      TWILIO_ACCOUNTID                = var.TWILIO_ACCOUNTID
+      TWILIO_ACCOUNTID               = var.TWILIO_ACCOUNTID
     }
   )
 }

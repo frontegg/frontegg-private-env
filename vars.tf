@@ -18,7 +18,7 @@ variable "TWILIO_TOKEN" {
   default     = "placeholder"
 }
 
-variable "TWILIO_ACCOUNTID" {   
+variable "TWILIO_ACCOUNTID" {
   description = "Twilio account ID"
   type        = string
   sensitive   = true
