@@ -518,3 +518,4 @@ This infrastructure provides a robust, scalable foundation for the Frontegg plat
 
 # Test commit - Wed Jul 23 12:44:40 IDT 2025
 # Release test
+# Test with correct installation ID
