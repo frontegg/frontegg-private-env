@@ -514,4 +514,4 @@ The infrastructure supports:
 - **State Management**: Ensure Terraform state is properly backed up
 - **Monitoring**: Implement CloudWatch monitoring for all resources
 
-This infrastructure provides a robust, scalable foundation for the Frontegg platform with the flexibility to adapt to various deployment scenarios and requirements. 
+This infrastructure provides a robust, scalable foundation for the Frontegg platform with the flexibility to adapt to various deployment scenarios and requirements.
